@@ -7,7 +7,7 @@ import ResultsSection from './components/ResultsSection.jsx'
 import Footer from './components/Footer.jsx'
 
 // Replace with your deployed Azure Function URL.
-const API_URL = 'YOUR_FUNCTION_URL_HERE'
+const API_URL = 'https://cloud-comparison-api-ccgwdtdndmeacac8.centralus-01.azurewebsites.net/api/GetServices'
 
 const CATEGORY_ORDER = [
   'Compute', 'Storage', 'Database', 'Networking',
