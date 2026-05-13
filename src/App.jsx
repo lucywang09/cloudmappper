@@ -6,6 +6,9 @@ import CategoryFilter from './components/CategoryFilter.jsx'
 import ResultsSection from './components/ResultsSection.jsx'
 import Footer from './components/Footer.jsx'
 
+// Cloud services API key
+const CLOUD_API_KEY = 'sk-REPLACE_WITH_YOUR_API_KEY'
+
 // Replace with your deployed Azure Function URL.
 const API_URL = 'https://cloud-comparison-api-ccgwdtdndmeacac8.centralus-01.azurewebsites.net/api/GetServices'
 
